@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EasyTake</string>
+    <string name="products">Товари</string>
+    <string name="orders">Замовлення</string>
+    <string name="clients">Клієнти</string>
+    <string name="activeOrders">Активні замовлення</string>
+    <string name="reports">Звіти</string>
+    <string name="addProductBtn">Новий товар</string>
+    <string name="addClientBtn">Новий клієнт</string>
+    <string name="addReportBtn">Створити звіт</string>
+    <string name="addOrderBtn">Нове замовлення</string>
+    <string name="name">Назва товару</string>
+    <string name="price">Ціна/год</string>
+    <string name="cost">Вартість од. товару</string>
+    <string name="amount">Кількість</string>
+    <string name="nameCol">Назва</string>
+    <string name="priceCol">Ціна/год</string>
+    <string name="clientCol">Ім\'я</string>
+    <string name="phoneCol">Телефон(+380XXXXXXXXX)</string>
+    <string name="phone1Col">Телефон</string>
+    <string name="passportCol">Паспорт</string>
+    <string name="costCol">Вартість</string>
+    <string name="amountCol">Кіль-ть</string>
+    <string name="add">Додати</string>
+    <string name="cancel">Відміна</string>
+    <string name="prodCol">Товар</string>
+    <string name="clientNameCol">Клієнт</string>
+    <string name="orderDuration">Тривалість аренди</string>
+    <string name="reportCategory">Категорія</string>
+</resources>
