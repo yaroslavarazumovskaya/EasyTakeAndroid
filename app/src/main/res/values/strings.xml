@@ -27,4 +27,5 @@
     <string name="clientNameCol">Клієнт</string>
     <string name="orderDuration">Тривалість аренди</string>
     <string name="reportCategory">Категорія</string>
+    <string name="dateCol">Дата</string>
 </resources>

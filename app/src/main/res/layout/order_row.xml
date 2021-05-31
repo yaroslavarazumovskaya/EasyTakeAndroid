@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/order_product_col"
-        android:layout_width="160dp"
+        android:layout_width="140dp"
         android:layout_height="35dp"
         android:gravity="start"
         android:text="TextView"
         android:textAlignment="viewStart"
-        android:textColor="@color/buttonColor"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,19 +24,19 @@
 
     <TextView
         android:id="@+id/order_client_col"
-        android:layout_width="160dp"
+        android:layout_width="140dp"
         android:layout_height="35dp"
+        android:gravity="start"
         android:text="TextView"
         android:textAlignment="viewStart"
-        android:textColor="@color/buttonColor"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/order_product_col"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:gravity="start" />
+        app:layout_constraintVertical_bias="0.0" />
 
 
     <TextView
@@ -45,7 +45,7 @@
         android:layout_height="35dp"
         android:text="TextView"
         android:textAlignment="center"
-        android:textColor="@color/buttonColor"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,16 +56,17 @@
 
     <Button
         android:id="@+id/order_detail_btn"
-        android:layout_width="50dp"
+        android:layout_width="40dp"
         android:layout_height="35dp"
         android:background="@color/buttonColor"
         android:onClick="onClickOrderDetail"
         android:text="..."
-        android:textStyle="bold"
         android:textAlignment="center"
+        android:textColor="@color/background"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/order_client_col"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />

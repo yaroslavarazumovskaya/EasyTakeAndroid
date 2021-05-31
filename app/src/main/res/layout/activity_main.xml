@@ -9,77 +9,83 @@
 
     <Button
         android:id="@+id/orders"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:background="@color/buttonColor"
         android:onClick="onClickOrders"
         android:text="@string/orders"
-        android:textColor="@android:color/black"
+        android:textColor="@color/background"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/currentOrders"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toEndOf="@+id/products"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95" />
 
     <Button
         android:id="@+id/currentOrders"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:background="@color/buttonColor"
         android:onClick="onClickCurrentOrders"
         android:text="@string/activeOrders"
-        android:textColor="@android:color/black"
+        android:textColor="@color/background"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toEndOf="@+id/products"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.76" />
 
     <Button
         android:id="@+id/products"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:background="@color/buttonColor"
         android:onClick="onClickProducts"
         android:text="@string/products"
-        android:textColor="@android:color/black"
+        android:textColor="@color/background"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/clients"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
+        app:layout_constraintVertical_bias="0.949" />
 
     <Button
         android:id="@+id/clients"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:background="@color/buttonColor"
         android:onClick="onClickClients"
         android:text="@string/clients"
-        android:textColor="@android:color/black"
+        android:textColor="@color/background"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.761" />
 
     <Button
         android:id="@+id/reports"
-        android:layout_width="405dp"
+        android:layout_width="310dp"
         android:layout_height="100dp"
         android:background="@color/buttonColor"
         android:onClick="onClickReports"
         android:text="@string/reports"
-        android:textColor="@android:color/black"
+        android:textColor="@color/background"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/currentOrders"
-        app:layout_constraintVertical_bias="0.98" />
+        app:layout_constraintVertical_bias="0.51" />
 
     <TextView
         android:id="@+id/textView"
